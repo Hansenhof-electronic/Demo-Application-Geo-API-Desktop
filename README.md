@@ -26,6 +26,12 @@ What things you need to install the software and how to install them
 
 For more info about how to use the API in your own project, head over to the [API project site](https://github.com/Hansenhof-electronic/odokus-3rdParty-Geo-API-for-Android).
 
+## Additional notes
+
+### Java FX
+
+For the demo application I used a Gluon Template project to demo how to implement a Java FX based Client. Gluon gives you a very simple base to develop a client that can run on desktops as well as on Android devices. But you can easily run the same code on a plain Java FX based project as well.
+
 ### Specials about the Desktop Version
 
 In order to run the API Java classes for Android on Desktop Clients, you need to strip out all Android Activity and Access-Permission related code from the Api class (or at least comment them out).
@@ -47,3 +53,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 This project uses the work of other project groups in many essential areas, which I will name here, of course, and on whose project pages I would like to refer. Without the work of these people, it would not be possible to make this example project so insanely slim and easy to understand.
 
 * [JSON-RPC 2.0 Base + Client](http://software.dzhuvinov.com/json-rpc-2.0-client.html) from [Vladimir Dzhuvinov](http://blog.dzhuvinov.com/)
+* [Gluon](http://gluonhq.com/) 
